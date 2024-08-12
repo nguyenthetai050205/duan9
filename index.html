@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Du an 8</title>
+  </head>
+  <body>
+    <h1 id="h1id">Hải là chó ?</h1>
+    <div>
+      <button class="left">
+        <a href="/haicho.html" target="_blank">Đúng</a>
+      </button>
+      <button class="right" onclick="changeText()"><a href="#">Sai</a></button>
+      <script>
+        changeText = () => {
+          document.getElementById("h1id").innerHTML = "Hải là súc vật ?";
+        };
+      </script>
+    </div>
+    <img id="a1" src="/sucvathai.jpg" alt="sucvathai" height="500" />
+    <img
+      id="a2"
+      src="/hinh-anh-meme-cho-cute-2.jpg"
+      alt="anhcho"
+      height="500"
+    />
+  </body>
+</html>
